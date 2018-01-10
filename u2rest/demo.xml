@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service xmlns="">
+    <dynamic_array name="test">
+        <field association="" location="0" name="ID" sub_association="" value_type="S"/>
+        <field association="" location="14" name="@ID" sub_association="" value_type="S"/>
+        <field association="" location="1" name="FNAME" sub_association="" value_type="S"/>
+        <field association="" location="2" name="LNAME" sub_association="" value_type="S"/>
+        <field association="" location="3" name="COMPANY" sub_association="" value_type="S"/>
+        <field association="" location="4" name="ADDRESS" sub_association="" value_type="MV"/>
+        <field association="" location="5" name="CITY" sub_association="" value_type="S"/>
+        <field association="" location="6" name="STATE" sub_association="" value_type="S"/>
+        <field association="" location="7" name="ZIP_CODE" sub_association="" value_type="S"/>
+        <field association="" location="8" name="COUNTRY" sub_association="" value_type="S"/>
+        <field association="PHONE_ITEMS" location="9" name="PHONE_NUM" sub_association="" value_type="MV"/>
+        <field association="PHONE_ITEMS" location="10" name="PHONE_TYPE" sub_association="" value_type="MV"/>
+        <field association="" location="11" name="NAME" sub_association="" value_type="S"/>
+        <field association="PHONE_ITEMS" location="12" name="PHONE" sub_association="" value_type="MV"/>
+        <field association="" location="13" name="ZIP" sub_association="" value_type="S"/>
+    </dynamic_array>
+    <subroutine name="EMP.RPC" parameter_count="3">
+        <input name="">
+            <parameter dname="" name="input_0" order="1" type="string"/>
+        </input>
+        <output name="">
+            <parameter dname="" name="output_0" order="2" type="string"/>
+            <parameter dname="" name="output_2" order="3" type="string"/>
+        </output>
+    </subroutine>
+    <subroutine name="GPA1" parameter_count="1">
+        <input name=""/>
+        <output name=""/>
+    </subroutine>
+    <subroutine name="tesr" parameter_count="5">
+        <input name="">
+            <parameter dname="" name="input_0" order="1" type="string"/>
+        </input>
+        <output name="">
+            <parameter dname="" name="output_0" order="2" type="string"/>
+            <parameter dname="" name="output_2" order="3" type="string"/>
+        </output>
+    </subroutine>
+    <subroutine name="EXAMPLE" parameter_count="2">
+        <input name=""/>
+        <output name=""/>
+    </subroutine>
+</service>
