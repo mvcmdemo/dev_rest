@@ -3,10 +3,14 @@
     <dynamic_array name="qwe">
         <field association="" location="1" name="field_1" sub_association="" value_type="S"/>
     </dynamic_array>
-    <subroutine name="qwe" parameter_count="3">
+    <subroutine allowCompileAndCatalog="true" catalogOptions="" compileOptions="" createSourceDir="false" name="qwe" parameter_count="3" sourceDir="BP">
         <input name="">
             <parameter dname="" name="input_0" order="1" type="string"/>
         </input>
         <output name=""/>
+        <source><![CDATA[SUBROUTINE qwe
+CRT "HELLO WORLD"
+RETURN
+END]]></source>
     </subroutine>
 </service>
